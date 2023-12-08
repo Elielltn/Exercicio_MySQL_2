@@ -1,0 +1,3 @@
+ALTER TABLE associado
+ADD CONSTRAINT fk_associado_plano FOREIGN KEY (PLANO)
+REFERENCES plano(NUMERO);
